@@ -125,6 +125,7 @@ contain additional information in the form of `DockerLabels`.
 An ECS-Task-DAG in our projects now looks like this (in CloudFormation YAML
 syntax):
 ```
+{% raw %}
   AirflowDag:
     Type: AWS::ECS::TaskDefinition
     Properties:
@@ -151,6 +152,7 @@ syntax):
             airflow.tasks.convert.depends.0: 'latest_only'
       Family: "airflow-train-dag"
       TaskRoleArn: !Ref AirflowDagTaskRole
+{% endraw %}
 ```
 This DAG consists of two tasks,
 - `latest_only`, a standard Airflow operator.
