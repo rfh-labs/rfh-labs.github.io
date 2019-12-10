@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Royal FloraHolland - Labs
+title: RFH - Labs
 email: frankvanlankvelt@royalfloraholland.com
 description: >- # this means to ignore newlines until "baseurl:"
     Reports on the experiments performed in the Royal FloraHolland
@@ -25,7 +25,8 @@ github_username:  rfh-labs
 
 # Build settings
 markdown: kramdown
-theme: minima
+#theme: minima
+remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
 plugins:
   - jekyll-feed
 

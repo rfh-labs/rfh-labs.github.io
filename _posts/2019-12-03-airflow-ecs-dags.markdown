@@ -5,6 +5,8 @@ author: Frank van Lankvelt
 date:   2019-12-03 12:50:56 +0100
 categories: airflow aws
 excerpt: Deploy an ECS TaskDefinition, run a DAG
+subtitle: Deploy an ECS TaskDefinition, run a DAG
+background: /assets/flowers_test_tube.jpg
 ---
 
 ## Data Products - from Analysis to Production
